@@ -1,25 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+import './App.css'
+import React,{useState} from "react";
+function App(){
+   let [counter,setCounter] =useState(0)
+   let stock=0
+   return(
+    <>
+    <h1>counter App in react</h1>
+    <div className="wrapper"> 
+    <button className='minus' disabled={counter===0} onClick={()=>{
+      if(counter>0){
+        setCounter(counter-1)
+      }
+    }}>-</button>
+    <p>{counter}</p>
+     <button className='plus' disabled={counter===stock} onClick={()=>{
+      if(counter<stock){
+        setCounter(counter-1)
+      }
+    }}>-</button>
     </div>
-  );
+    </>
+   )
 }
-
-export default App;
+export default App
