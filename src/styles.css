@@ -1,0 +1,51 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+.output{
+    outline: none;
+    border: none;
+    width: 320px;
+    height: 70px;
+    font-size: 32px;
+    padding: 2px 10px;
+    background-color: black;
+    color: white;
+    border-top-right-radius: 6px;
+    border-top-right-radius: 6px;
+    text-align: right;
+}
+button{
+    width: 85px;
+    height: 90px;
+    font-size: 26px;
+    cursor: pointer;
+    border: none;
+    border-top: 1px solid gray;
+    border-right: 1px solid gray;
+
+}
+.digit:hover{
+    background-color: rgb(129, 138, 145);
+    color: white;
+
+}
+.operator:hover{
+    background-color: rgb(126, 164, 164);
+
+
+}
+.operator{
+    border-right: none;
+    background-color: orange;
+    color: white;
+}
+.fun-keys:hover{
+    background-color: darkolivegreen;
+}
+.fun-keys{
+    background-color: rgb(112, 121, 107);
+}
