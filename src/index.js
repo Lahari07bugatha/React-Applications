@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
+import Data from './databinding';
 //import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -17,4 +18,9 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 //reportWebVitals();
 root.render(
   <App/>
+)
+root.render(
+  
+    <Data></Data>
+  
 )
