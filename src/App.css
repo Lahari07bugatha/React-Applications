@@ -1,21 +1,5 @@
-.wrappeer{
+.list-group-item{
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  gap: 10px;
-}
-.wrappeer button{
-  border: none;
-  outline: none;
-  padding: 10px 15px;
-  font-size: 22px;
-  border-radius: 4px;
-  color: #fff;
-  cursor: pointer;
-}
-button.minus{
-  background-color: red;
-}
-button.plus{
-  background-color: blue;
 }
