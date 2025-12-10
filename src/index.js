@@ -13,6 +13,7 @@ root.render(
   // <React.StrictMode>
     <Api />
     <App />
+    <Appp />
   // </React.StrictMode>
 );
 
