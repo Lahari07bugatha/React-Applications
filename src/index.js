@@ -2,8 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import Api from './Api';
-import App from 'App.js';
-import Appp from 'Appp.js';
+import App from './App.js';
+import Appp from './Appp.js';
 
 
 //import reportWebVitals from './reportWebVitals';
