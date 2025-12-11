@@ -4,6 +4,7 @@ import './index.css';
 import Api from './Api';
 import App from './App.js';
 import Appp from './Appp.js';
+import Ap from './Ap'
 
 
 //import reportWebVitals from './reportWebVitals';
@@ -12,6 +13,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   // <React.StrictMode>
     <Api />
+    <Ap/>
     <App />
     <Appp />
   // </React.StrictMode>
