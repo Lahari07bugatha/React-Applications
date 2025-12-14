@@ -1,6 +1,5 @@
 import Keypads from "./keypads"
 import React,{useState} from "react"
-import './styles.css'
 function Appp(){
 
     let [input,setInput]=useState('')
