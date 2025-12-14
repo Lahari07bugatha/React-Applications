@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import Api from './Api';
 import App from './App.js';
-import Appp from './Appp.js';
+import calculs from './calculs'
 import Ap from './Ap'
 
 
@@ -15,7 +15,7 @@ root.render(
     <Api />
     <Ap/>
     <App />
-    <Appp />
+    <calculs />
   // </React.StrictMode>
 );
 
